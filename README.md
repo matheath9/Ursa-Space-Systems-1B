@@ -1,3 +1,5 @@
+![image alt](https://github.com/matheath9/Ursa-Space-Systems-1B/blob/main/home-card-min-1024x582.jpg?raw=true)
+
 # Ursa-Space-Systems-1B
 This is where code will be stored throughout the Ursa Space 1B project. 
 
