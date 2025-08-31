@@ -1,3 +1,8 @@
+# Separate the sections in your notebook. This will return the image of a specific iceburg or vessel
+# RUN CODE IN image_data_API FIRST!!!!!
+
+
+##################################################################
 import numpy as np
 
 # Add '\input_data.npz' at the end of the path
@@ -8,3 +13,14 @@ Y_train = npz['Y_train']
 del npz
 
 print('We have {} examples to work with'.format(Y_train.shape[0]))
+###################################################################
+# This code will display the iceberg or vessel
+import matplotlib.pyplot as plt
+
+labels=['Ship', 'Iceberg']
+ix=100 # ID for specific image
+plt.imshow(np.squeeze(X_train[ix, :, :, 2]), cmap='gray')
+plt.title(f"This is: {labels[int(Y_train[ix])]}")
+plt.axis('off')
+plt.show()
+####################################################################
