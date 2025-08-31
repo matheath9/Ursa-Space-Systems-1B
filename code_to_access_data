@@ -1,5 +1,6 @@
 import numpy as np
 
+# Add '\input_data.npz' at the end of the path
 npz = np.load(r'paste the path returned from the api call')
 
 X_train = npz['X_train']
