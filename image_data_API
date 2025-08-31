@@ -1,3 +1,7 @@
+# This will download the files needed for step 1 of accessing the image data
+# Once this is ran go to code_to_access_data
+
+##########################################################################
 # pip install kagglehub in terminal before running
 import kagglehub
 
@@ -5,3 +9,4 @@ import kagglehub
 path = kagglehub.dataset_download("saurabhbagchi/ship-and-iceberg-images")
 
 print("Path to dataset files:", path)
+###########################################################################
