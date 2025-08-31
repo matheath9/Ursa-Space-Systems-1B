@@ -1,0 +1,9 @@
+import numpy as np
+
+npz = np.load(r'paste the path returned from the api call')
+
+X_train = npz['X_train']
+Y_train = npz['Y_train']
+del npz
+
+print('We have {} examples to work with'.format(Y_train.shape[0]))
