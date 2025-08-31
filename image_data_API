@@ -1,0 +1,7 @@
+# pip install kagglehub in terminal before running
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("saurabhbagchi/ship-and-iceberg-images")
+
+print("Path to dataset files:", path)
