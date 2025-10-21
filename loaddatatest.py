@@ -212,7 +212,6 @@ model.eval()
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model.to(device)
 inputs = {k: v.to(device) for k, v in inputs.items()}
-
 # will give a warning
 
 # make predictions and get predicted labels
@@ -221,7 +220,7 @@ with torch.no_grad():
     predicted_labels = outputs.logits.argmax(dim=1).cpu().numpy()  # 0 or 1
 
 # print predicted labels for the first 50 images
-predicted_labels
+print(predicted_labels)
 
 # save to pkl file
 import pickle
