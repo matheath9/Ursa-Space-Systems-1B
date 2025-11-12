@@ -29,5 +29,3 @@ The project involves:
 - **Libraries**: OpenCV, scikit-learn, TensorFlow/PyTorch, NumPy, Pandas  
 - **Tools**: GitHub Projects, Jupyter Notebooks, VSCode  
 - **Data Sources**: SAR imagery scraped from URSA datasets and public maritime archives
-
-## Repository Structure
