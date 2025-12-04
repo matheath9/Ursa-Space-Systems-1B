@@ -2,7 +2,9 @@
 
 # 🚢🧊 Foundation Models for Satellite Image Intelligence
   
-**URSA Space Systems – Collaborative Research Project** (SAR Image Classification: Icebergs vs. Vessels)  
+**URSA Space Systems – Collaborative Research Project** 
+
+- SAR Image Classification: Icebergs vs. Vessels 
 
 
 This is where code will be stored throughout the Ursa Space 1B project. 
