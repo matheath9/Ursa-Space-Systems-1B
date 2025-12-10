@@ -124,7 +124,7 @@ A preview of the SAR dataset containing radar image bands and the corresponding 
   
 **Models used:** 
 
-- Built baseline MLP model and explored various other models such as CNN, logistic regression, etc...
+- Built baseline MLP model and explored various other models such as CNN, logistic regression, Random Forest, etc.
 - Utilized models from the HuggingFace library 
 	- ViT model: https://huggingface.co/google/vit-base-patch16-224
 	- ConvNeXT model: https://huggingface.co/docs/transformers/en/model_doc/convnext
@@ -164,6 +164,21 @@ Key Results:
 
 Confusion MAtrix: 
 ![Confusion Matrix](Baseline-model-confusion-matrix.png)
+
+**Embeddings**
+
+Vizualizations of seperation and variance using 3d PCA:
+![3D PCA Embeddings](3D-PCA-embeddings.png)
+
+Seperationn Ratios:
+
+- Vit seperation ratio: 0.475, 
+- Convnext seperation ratio: 0.537
+
+
+**Final Thoughts:**
+Although the embedded data still modeled well, it was not enough compared to the baseline.
+For iceberg vs. ship classification:  baseline model meets the business need
 
 
 
