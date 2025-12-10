@@ -121,12 +121,6 @@ A preview of the SAR dataset containing radar image bands and the corresponding 
 ---
 
 ## 🧠 **Model Development**
-
-**You might consider describing the following (as applicable):**
-
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
   
 **Models used:** 
 
