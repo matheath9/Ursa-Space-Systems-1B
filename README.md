@@ -109,6 +109,15 @@ We began with exploratory data analysis (EDA) to understand the dataset’s stru
 **Sample dataset images:** 
 ![Sample Images](sample-images-of-dataset.png) 
 
+
+**Dataset Sample:** 
+
+A preview of the SAR dataset containing radar image bands and the corresponding iceberg labels.
+
+![Dataset Sample (SAR Bands and Labels)](Dataset%20Sample%20(SAR%20Bands%20and%20Labels).png)
+
+
+
 ---
 
 ## 🧠 **Model Development**
