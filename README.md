@@ -162,6 +162,8 @@ Key Results:
 - 306 high-confidence predictions
 - Balanced performance across classes
 
+Confusion MAtrix: 
+![Confusion Matrix](Baseline-model-confusion-matrix.png)
 
 
 
