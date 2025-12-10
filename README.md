@@ -128,12 +128,31 @@ A preview of the SAR dataset containing radar image bands and the corresponding 
 * Feature selection and Hyperparameter tuning strategies
 * Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
   
-Models used: 
+**Models used:** 
 
-- Built and explored baseline models (MLP, CNN, logistic regression)
+- Built baseline MLP model and explored various other models such as CNN, logistic regression, etc...
 - Utilized models from the HuggingFace library 
 	- ViT model: https://huggingface.co/google/vit-base-patch16-224
-	- ConvNeXT model: https://huggingface.co/docs/transformers/en/model_doc/convnext 
+	- ConvNeXT model: https://huggingface.co/docs/transformers/en/model_doc/convnext
+
+**Architecture of Baseline MLP Model**
+
+- Input: 11,250 features (75×75×2 flattened)
+- Hidden Layers: 512 → 256 → 128 neurons
+- Activation: ReLU
+- Optimizer: Adam (lr=0.001)
+- Framework: scikit-learn MLPClassifier
+
+**Training Configuration of Baseline MLP Model**
+
+- Training samples: 1,283 (80%)
+- Validation samples: 321 (20%)
+- Batch size: 32
+- Early stopping: 15 epochs patience
+- Converged in: 53 iterations
+- Final loss: 0.0034
+
+
 ---
 
 ## 📈 **Results & Key Findings**
