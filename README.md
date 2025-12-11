@@ -46,7 +46,7 @@ Run the following commands in terminal:
 	git clone <https://github.com/matheath9/Ursa-Space-Systems-1B.git>
 	cd Ursa-Space-Systems-1B
 
-
+<br>
 
 **How to install dependencies**
 
@@ -58,7 +58,7 @@ Then install required packages:
 	
 Note: Sometimes one package may fail due to version conflicts or missing system dependencies. If that happens, you can install the problematic package separately.
 
-
+<br>
 
 **How to access the dataset(s)**
 
