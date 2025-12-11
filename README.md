@@ -167,12 +167,12 @@ Confusion MAtrix:
 
 **Embeddings**
 
-Vizualizations of seperation and variance using 3d PCA:
+Vizualizations of seperation and variance using 3D PCA:
 ![3D PCA Embeddings](3D-PCA-embeddings.png)
 
-Seperationn Ratios:
+Seperation Ratios:
 
-- Vit seperation ratio: 0.475, 
+- Vit seperation ratio: 0.475 
 - Convnext seperation ratio: 0.537
 
 
