@@ -96,8 +96,20 @@ We began with exploratory data analysis (EDA) to understand the dataset’s stru
 
 - Origin: Kaggle competition Statoil Iceberg Classifier Challenge
 - Format: CSV file containing JSON-encoded radar images; separate training and test sets
-- Size: Training set ~1604 images; Test set ~842 images
+- Size:
+	- Training set: ~1604 labeled training samples
+	- Test set ~8424 unlabeled test samples
 - Type of data: Synthetic Aperture Radar (SAR) grayscale images of icebergs and ships, with labels for classification
+- Label
+	- 0 = Ship
+ 	- 1 = Iceberg
+- Image Format:
+	- 2-channel SAR images (band_1, band_2)
+ 	- Image size_ 75 x 75 pixels
+- Pixel Range (After Normalization)
+	- Values scaled to [-1, +1]
+  	- -1 -> darker return
+  	- +1 -> brighter return
 
 	
 **Insights from EDA**
@@ -125,10 +137,12 @@ A preview of the SAR dataset containing radar image bands and the corresponding 
 **Models used:** 
 
 - Built baseline MLP model and explored various other models such as CNN, logistic regression, Random Forest, etc.
-- Utilized models from the HuggingFace library 
+- Generated image embeddings using pre-trained models from HuggingFace:
 	- ViT model: https://huggingface.co/google/vit-base-patch16-224
 	- ConvNeXT model: https://huggingface.co/docs/transformers/en/model_doc/convnext
-
+ 
+Note: The HuggingFace models were not specifically trained on SAR datasets
+ 
 **Architecture of Baseline MLP Model**
 
 - Input: 11,250 features (75×75×2 flattened)
