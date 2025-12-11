@@ -122,6 +122,7 @@ We began with exploratory data analysis (EDA) to understand the dataset’s stru
 
 	
 **Sample dataset images:** 
+
 ![Sample Images](img/sample-images-of-dataset.png) 
 
 
@@ -147,7 +148,7 @@ A preview of the SAR dataset containing radar image bands and the corresponding 
  
 Note: The HuggingFace models were not specifically trained on SAR datasets
 
-
+<br>
 
 **Architecture of Baseline MLP Model**
 
@@ -157,7 +158,7 @@ Note: The HuggingFace models were not specifically trained on SAR datasets
 - Optimizer: Adam (lr=0.001)
 - Framework: scikit-learn MLPClassifier
 
-
+<br>
 
 **Training Configuration of Baseline MLP Model**
 
@@ -184,22 +185,22 @@ Key Results:
 - 306 high-confidence predictions
 - Balanced performance across classes
 
-Confusion MAtrix: 
+Confusion Matrix: 
 ![Confusion Matrix](img/Baseline-model-confusion-matrix.png)
 
-
+<br>
 
 **Embeddings**
 
 Vizualizations of seperation and variance using 3D PCA:
+
 ![3D PCA Embeddings](img/3D-PCA-embeddings.png)
 
 Seperation Ratios:
-
 - Vit seperation ratio: 0.475 
 - Convnext seperation ratio: 0.537
 
-
+<br>
 
 **Final Thoughts:**
 Although the embedded data still modeled well, it was not enough compared to the baseline.
@@ -215,7 +216,7 @@ For iceberg vs. ship classification:  baseline model meets the business need
 - Try deeper or more specialized CNN architectures.
 - Add cross-validation for more reliable evaluation.
 
-
+<br>
 
 **Future directions**
 
