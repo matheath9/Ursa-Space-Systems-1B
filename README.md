@@ -47,6 +47,7 @@ Run the following commands in terminal:
 	cd Ursa-Space-Systems-1B
 
 
+
 **How to install dependencies**
 
 
@@ -56,6 +57,7 @@ Then install required packages:
 	pip install numpy pandas matplotlib seaborn scikit-learn tensorflow keras torch torchvision jupyter pillow kaggle
 	
 Note: Sometimes one package may fail due to version conflicts or missing system dependencies. If that happens, you can install the problematic package separately.
+
 
 
 **How to access the dataset(s)**
@@ -111,6 +113,7 @@ We began with exploratory data analysis (EDA) to understand the dataset’s stru
   	- -1 -> darker return
   	- +1 -> brighter return
 
+
 	
 **Insights from EDA**
 
@@ -120,6 +123,7 @@ We began with exploratory data analysis (EDA) to understand the dataset’s stru
 	
 **Sample dataset images:** 
 ![Sample Images](img/sample-images-of-dataset.png) 
+
 
 
 **Dataset Sample:** 
@@ -142,7 +146,9 @@ A preview of the SAR dataset containing radar image bands and the corresponding 
 	- ConvNeXT model: https://huggingface.co/docs/transformers/en/model_doc/convnext
  
 Note: The HuggingFace models were not specifically trained on SAR datasets
- 
+
+
+
 **Architecture of Baseline MLP Model**
 
 - Input: 11,250 features (75×75×2 flattened)
@@ -150,6 +156,8 @@ Note: The HuggingFace models were not specifically trained on SAR datasets
 - Activation: ReLU
 - Optimizer: Adam (lr=0.001)
 - Framework: scikit-learn MLPClassifier
+
+
 
 **Training Configuration of Baseline MLP Model**
 
@@ -179,6 +187,8 @@ Key Results:
 Confusion MAtrix: 
 ![Confusion Matrix](img/Baseline-model-confusion-matrix.png)
 
+
+
 **Embeddings**
 
 Vizualizations of seperation and variance using 3D PCA:
@@ -188,6 +198,7 @@ Seperation Ratios:
 
 - Vit seperation ratio: 0.475 
 - Convnext seperation ratio: 0.537
+
 
 
 **Final Thoughts:**
@@ -205,7 +216,8 @@ For iceberg vs. ship classification:  baseline model meets the business need
 - Add cross-validation for more reliable evaluation.
 
 
-Future directions
+
+**Future directions**
 
 - Incorporate more SAR datasets.
 - Explore pretrained models designed for satellite imagery.
