@@ -198,6 +198,7 @@ Core project files used for the final pipeline:
 
 
 **- img/**
+
 Final figures (PCA plots, confusion matrix, dataset samples)
 
 <br>
