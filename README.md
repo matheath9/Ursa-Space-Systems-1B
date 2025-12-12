@@ -169,6 +169,54 @@ Note: The HuggingFace models were not specifically trained on SAR datasets
 - Converged in: 53 iterations
 - Final loss: 0.0034
 
+---
+
+## 🧩 Code Highlights ##
+
+**Main/**
+
+Final consolidated notebooks and project-wide workflows used for results, figures, and summary analysis.
+
+**Experimental Notebooks/**
+
+Individual team member exploration:
+
+- Asheni: Random Forest experiments
+- Matan: CNN and Gradient Boosting models
+- Shahzadi: Logistic Regression + Experimental MLP model
+- Stella: Data loading/testing notebook
+
+**Project/**
+
+Core project files used for the final pipeline:
+
+- Code/ : Master notebook running all models + embedding split utilities
+- Data/ : Saved embedding files for ViT and ConvNeXt
+- Img/ : Final figures (PCA plots, confusion matrix, dataset samples)
+- README.md :Project-level documentation
+
+**ConvNext/**
+
+All work related to ConvNeXt embeddings:
+
+- Notebook for loading data
+- Embedding generation script
+- Test scripts and saved embeddings
+
+**Baseline-models/**
+
+Contains the baseline modeling work.
+This folder is intended to store the final selected baseline MLP model.
+At present, it includes earlier baseline experiments (Logistic Regression and an initial MLP), while the final baseline MLP notebook was pending teammate upload at the time of submission.
+
+**embeddings (ViT/)**
+
+Saved ViT embeddings + notebook for loading/testing them.
+
+**Model-results/**
+
+Stored confusion matrices, screenshots, and performance output files for final evaluation.
+
 
 ---
 
