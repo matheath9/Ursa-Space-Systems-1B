@@ -1,0 +1,36 @@
+
+======================================================================
+ViT EMBEDDINGS ANALYSIS - TEST DATA (UNSUPERVISED)
+======================================================================
+
+Dataset Information:
+  - Total samples: 8424
+  - Embedding dimension: 768
+
+Unsupervised Clustering Results:
+Note: These metrics don't require true labels
+
+  PCA:
+    - Silhouette Score: 0.5861
+    - Davies-Bouldin Index: 0.7814 (lower is better)
+    - Calinski-Harabasz Score: 10570.42 (higher is better)
+    - Cluster Balance: 0.833
+
+  t-SNE:
+    - Silhouette Score: 0.4200
+    - Davies-Bouldin Index: 1.0641 (lower is better)
+    - Calinski-Harabasz Score: 6476.08 (higher is better)
+    - Cluster Balance: 0.835
+
+  UMAP:
+    - Silhouette Score: 0.6493
+    - Davies-Bouldin Index: 0.5783 (lower is better)
+    - Calinski-Harabasz Score: 23397.08 (higher is better)
+    - Cluster Balance: 0.833
+
+======================================================================
+INTERPRETATION GUIDE:
+  - Silhouette Score > 0.5: Well-defined clusters
+  - Davies-Bouldin < 1.0: Good cluster separation
+  - Balance Ratio > 0.7: Balanced cluster sizes
+======================================================================

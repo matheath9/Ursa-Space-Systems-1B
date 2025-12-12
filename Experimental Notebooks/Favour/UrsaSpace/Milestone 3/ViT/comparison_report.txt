@@ -1,0 +1,96 @@
+
+======================================================================
+MILESTONE 3: BASELINE COMPARISON REPORT
+======================================================================
+
+Baseline Model (Milestone 1 CNN - Validation Set):
+  Precision: 0.9329
+  Recall:    0.6986
+  F1 Score:  0.7990
+  Accuracy:  0.8402
+
+Embedding-Based Classifiers (Validation Set):
+----------------------------------------------------------------------
+
+Logistic Regression:
+  Precision: 0.6986
+  Recall:    0.6711
+  F1 Score:  0.6846
+  Accuracy:  0.7081
+
+  Improvement over baseline:
+    Precision: -25.11%
+    Recall:    -3.94%
+    F1 Score:  -14.32%
+
+SVM:
+  Precision: 0.7027
+  Recall:    0.6842
+  F1 Score:  0.6933
+  Accuracy:  0.7143
+
+  Improvement over baseline:
+    Precision: -24.68%
+    Recall:    -2.06%
+    F1 Score:  -13.22%
+
+Random Forest:
+  Precision: 0.7284
+  Recall:    0.7763
+  F1 Score:  0.7516
+  Accuracy:  0.7578
+
+  Improvement over baseline:
+    Precision: -21.92%
+    Recall:    +11.12%
+    F1 Score:  -5.93%
+
+Gradient Boosting:
+  Precision: 0.7067
+  Recall:    0.6974
+  F1 Score:  0.7020
+  Accuracy:  0.7205
+
+  Improvement over baseline:
+    Precision: -24.25%
+    Recall:    -0.18%
+    F1 Score:  -12.14%
+
+MLP:
+  Precision: 0.7229
+  Recall:    0.7895
+  F1 Score:  0.7547
+  Accuracy:  0.7578
+
+  Improvement over baseline:
+    Precision: -22.51%
+    Recall:    +13.01%
+    F1 Score:  -5.54%
+
+XGBoost:
+  Precision: 0.7368
+  Recall:    0.7368
+  F1 Score:  0.7368
+  Accuracy:  0.7516
+
+  Improvement over baseline:
+    Precision: -21.02%
+    Recall:    +5.47%
+    F1 Score:  -7.78%
+
+======================================================================
+OVERALL ASSESSMENT:
+======================================================================
+Best Embedding Model: MLP
+Best F1 Score: 0.7547
+Baseline F1 Score: 0.7990
+
+❌ UNDERPERFORMANCE: -5.54%
+Baseline model outperforms embedding-based approach.
+Recommendation: Stick with baseline model or consider fine-tuning
+                pre-trained models on SAR data.
+======================================================================
+
+Note: Both baseline and embedding models evaluated on validation sets
+      for fair comparison (same 90/10 or 70/30 split).
+======================================================================

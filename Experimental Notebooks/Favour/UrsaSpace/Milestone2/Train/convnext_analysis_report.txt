@@ -1,0 +1,29 @@
+
+======================================================================
+ConvNeXt EMBEDDINGS ANALYSIS SUMMARY - TRAINING DATA
+======================================================================
+
+Dataset Information:
+  - Total samples: 1604
+  - Embedding dimension: 1024
+  - Class 0 (Ships): 851
+  - Class 1 (Icebergs): 753
+
+Dimensionality Reduction Results:
+
+  PCA:
+    - Silhouette Score: 0.8288
+    - Adjusted Rand Index: 0.0509
+    - Normalized Mutual Information: 0.0400
+
+  t-SNE:
+    - Silhouette Score: 0.6458
+    - Adjusted Rand Index: 0.0509
+    - Normalized Mutual Information: 0.0400
+
+  UMAP:
+    - Silhouette Score: 0.8539
+    - Adjusted Rand Index: 0.0509
+    - Normalized Mutual Information: 0.0400
+
+======================================================================

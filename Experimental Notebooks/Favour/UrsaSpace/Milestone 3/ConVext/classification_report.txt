@@ -1,0 +1,13 @@
+
+======================================================================
+MILESTONE 3: FAST CLASSIFIER RESULTS - ViT
+======================================================================
+
+Training Mode: FAST (Default hyperparameters)
+Total Training Time: 134.30s
+
+Dataset Split:
+  Training:   1443 samples
+  Validation: 161 samples
+  Test:       8424 samples
+

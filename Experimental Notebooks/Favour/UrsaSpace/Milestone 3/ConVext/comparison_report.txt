@@ -1,0 +1,96 @@
+
+======================================================================
+MILESTONE 3: BASELINE COMPARISON REPORT
+======================================================================
+
+Baseline Model (Milestone 1 CNN - Validation Set):
+  Precision: 0.9329
+  Recall:    0.6986
+  F1 Score:  0.7990
+  Accuracy:  0.8402
+
+Embedding-Based Classifiers (Validation Set):
+----------------------------------------------------------------------
+
+Logistic Regression:
+  Precision: 0.6962
+  Recall:    0.7237
+  F1 Score:  0.7097
+  Accuracy:  0.7205
+
+  Improvement over baseline:
+    Precision: -25.37%
+    Recall:    +3.59%
+    F1 Score:  -11.18%
+
+SVM:
+  Precision: 0.7436
+  Recall:    0.7632
+  F1 Score:  0.7532
+  Accuracy:  0.7640
+
+  Improvement over baseline:
+    Precision: -20.29%
+    Recall:    +9.24%
+    F1 Score:  -5.73%
+
+Random Forest:
+  Precision: 0.7294
+  Recall:    0.8158
+  F1 Score:  0.7702
+  Accuracy:  0.7702
+
+  Improvement over baseline:
+    Precision: -21.81%
+    Recall:    +16.77%
+    F1 Score:  -3.61%
+
+Gradient Boosting:
+  Precision: 0.7308
+  Recall:    0.7500
+  F1 Score:  0.7403
+  Accuracy:  0.7516
+
+  Improvement over baseline:
+    Precision: -21.67%
+    Recall:    +7.36%
+    F1 Score:  -7.35%
+
+MLP:
+  Precision: 0.7468
+  Recall:    0.7763
+  F1 Score:  0.7613
+  Accuracy:  0.7702
+
+  Improvement over baseline:
+    Precision: -19.94%
+    Recall:    +11.12%
+    F1 Score:  -4.72%
+
+XGBoost:
+  Precision: 0.7250
+  Recall:    0.7632
+  F1 Score:  0.7436
+  Accuracy:  0.7516
+
+  Improvement over baseline:
+    Precision: -22.29%
+    Recall:    +9.24%
+    F1 Score:  -6.93%
+
+======================================================================
+OVERALL ASSESSMENT:
+======================================================================
+Best Embedding Model: Random Forest
+Best F1 Score: 0.7702
+Baseline F1 Score: 0.7990
+
+⚠️ COMPARABLE PERFORMANCE: -3.61%
+Both approaches perform similarly.
+Recommendation: Baseline may be sufficient, but embedding approach
+                offers benefits in transfer learning scenarios.
+======================================================================
+
+Note: Both baseline and embedding models evaluated on validation sets
+      for fair comparison (same 90/10 or 70/30 split).
+======================================================================

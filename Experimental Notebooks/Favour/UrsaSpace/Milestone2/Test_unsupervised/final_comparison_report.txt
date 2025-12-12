@@ -1,0 +1,44 @@
+
+======================================================================
+FINAL MODEL COMPARISON - TEST DATA (UNSUPERVISED)
+======================================================================
+
+Performance Comparison (without true labels):
+Method          Metric                         ConvNeXt     ViT          Winner    
+----------------------------------------------------------------------
+PCA             Silhouette Score               0.5438       0.5861       ViT       
+PCA             Davies-Bouldin Index           0.8366       0.7814       ViT       
+PCA             Calinski-Harabasz Score        9045.87      10570.42     ViT       
+PCA             Cluster Balance                0.823        0.833        ViT       
+
+t-SNE           Silhouette Score               0.4138       0.4200       ViT       
+t-SNE           Davies-Bouldin Index           1.0556       1.0641       ConvNeXt  
+t-SNE           Calinski-Harabasz Score        6327.55      6476.08      ViT       
+t-SNE           Cluster Balance                0.713        0.835        ViT       
+
+UMAP            Silhouette Score               0.5839       0.6493       ViT       
+UMAP            Davies-Bouldin Index           0.8516       0.5783       ViT       
+UMAP            Calinski-Harabasz Score        10860.05     23397.08     ViT       
+UMAP            Cluster Balance                0.833        0.833        ViT       
+
+
+======================================================================
+OVERALL WINNER:
+  ConvNeXt wins: 1 metrics
+  ViT wins:      11 metrics
+
+  RECOMMENDED MODEL: ViT
+======================================================================
+
+Interpretation (Unsupervised):
+  - ViT shows better intrinsic clustering structure
+  - Higher silhouette score = better-defined clusters
+  - Lower Davies-Bouldin = better cluster separation
+  - Higher Calinski-Harabasz = better cluster density
+
+Recommendations:
+  1. Use ViT embeddings for downstream tasks
+  2. The better clustering suggests this model captures
+     more discriminative features for your SAR dataset
+  3. When you get test labels, validate this recommendation
+======================================================================
