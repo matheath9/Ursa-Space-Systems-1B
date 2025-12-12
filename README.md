@@ -222,7 +222,6 @@ At present, it includes earlier baseline experiments (Logistic Regression and an
 
 Saved ViT embeddings + notebook for loading/testing them.
 
-<br>
 
 ### **Model-results/**
 
