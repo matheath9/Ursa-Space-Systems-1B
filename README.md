@@ -17,9 +17,9 @@ This is where code will be stored throughout the Ursa Space 1B project.
 | Name               | GitHub Handle     | Contribution                                          |
 | ------------------ | ----------------- | ----------------------------------------------------- |
 | **Shahzadi Aiman** | @ShahzadiAiman    | Model development, model research, feature extraction |
-| **Matan Heath**    | @matheath9        | Model development, embedding visualization            |
+| **Matan Heath**    | @matheath9        | Model development, embedding visualization & analysis |
 | **Stella Li**      | @stellali28       | Model research, feature extraction                    |
-| **Asheni Agarwal** | @asheniagr        | Exploratory data analysis (EDA)                       |
+| **Asheni Agarwal** | @asheniagr        | Exploratory data analysis (EDA), model development    |
 | **Hinna Zeejah**   | @hinnazeejah      | Feature extraction                                    |
 | **Colin Emmanuel** | @Colin-J-Emmanuel | Model development, embedding visualization prep       |
 | **Favour Umejesi** | @favour-umejesi   | Feature extraction                                    |
