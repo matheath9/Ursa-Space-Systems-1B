@@ -187,7 +187,7 @@ Individual team member exploration:
 - Shahzadi: Logistic Regression + Experimental MLP model
 - Stella: Data loading/testing notebook
 
-  **- Project/**
+**- Project/**
 
 Core project files used for the final pipeline:
 
