@@ -200,8 +200,6 @@ Core project files used for the final pipeline:
 **- img/**
 
 Final figures (PCA plots, confusion matrix, dataset samples)
-
-<br>
 <br>
 
 ### **ConvNext/**
@@ -211,7 +209,6 @@ All work related to ConvNeXt embeddings:
 - Notebook for loading data
 - Embedding generation script
 - Test scripts and saved embeddings
-
 <br>
 
 ### **Baseline-models/**
