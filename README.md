@@ -178,7 +178,7 @@ Note: The HuggingFace models were not specifically trained on SAR datasets
 Final consolidated notebooks and project-wide workflows used for results, figures, and summary analysis.
 
 
-### **- Experimental Notebooks/**
+ **- Experimental Notebooks/**
 
 Individual team member exploration:
 
@@ -187,7 +187,7 @@ Individual team member exploration:
 - Shahzadi: Logistic Regression + Experimental MLP model
 - Stella: Data loading/testing notebook
 
-###  **- Project/**
+  **- Project/**
 
 Core project files used for the final pipeline:
 
@@ -197,7 +197,7 @@ Core project files used for the final pipeline:
 - README.md : Project-level documentation
 
 
-### **- img/**
+**- img/**
 Final figures (PCA plots, confusion matrix, dataset samples)
 
 <br>
@@ -212,7 +212,6 @@ All work related to ConvNeXt embeddings:
 - Test scripts and saved embeddings
 
 <br>
-<br>
 
 ### **Baseline-models/**
 
@@ -220,19 +219,17 @@ Contains the baseline modeling work.
 This folder is intended to store the final selected baseline MLP model.
 At present, it includes earlier baseline experiments (Logistic Regression and an initial MLP), while the final baseline MLP notebook was pending teammate upload at the time of submission.
 <br>
-<br>
 
 ### **embeddings (ViT/)**
 
 Saved ViT embeddings + notebook for loading/testing them.
 
 <br>
-<br>
 
 ### **Model-results/**
 
 Stored confusion matrices, screenshots, and performance output files for final evaluation.
-
+<br>
 
 ---
 
