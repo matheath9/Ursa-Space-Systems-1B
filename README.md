@@ -191,7 +191,6 @@ Individual team member exploration:
 
 Core project files used for the final pipeline:
 
-- Code/ : Master notebook running all models + embedding split utilities
 - Data/ : Saved embedding files for ViT and ConvNeXt
 - Img/ : Final figures (PCA plots, confusion matrix, dataset samples)
 - README.md : Project-level documentation
@@ -210,13 +209,6 @@ All work related to ConvNeXt embeddings:
 - Notebook for loading data
 - Embedding generation script
 - Test scripts and saved embeddings
-<br>
-
-### **Baseline-models/**
-
-Contains the baseline modeling work.
-This folder is intended to store the final selected baseline MLP model.
-At present, it includes earlier baseline experiments (Logistic Regression and an initial MLP), while the final baseline MLP notebook was pending teammate upload at the time of submission.
 
 <br>
 
